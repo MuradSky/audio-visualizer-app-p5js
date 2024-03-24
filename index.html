@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+		<link rel="stylesheet" crossorigin href="./assets/index-B37y1PUt.css">
+	</head>
+	<body>
+		<div id="app-root" >
+			<div class="control" v-coach>
+				<nav>
+					<button @click="prev">
+						<i class="fa-solid fa-backward"></i>
+					</button>
+					<button @click="play" v-if="!isPlay">
+						<i class="fa-solid fa-play"></i>
+					</button>
+					<button @click="pause" v-else>
+						<i class="fa-solid fa-pause"></i>
+					</button>
+					<button @click="next">
+						<i class="fa-solid fa-forward"></i>
+					</button>
+				</nav>
+				<div class="volume">
+					<input type="range" min="0" max="100" step="1" :value="volume" @input="changeVolume">
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/addons/p5.sound.min.js"></script>
+		<script src="./assets/sketch.js"></script>
+		<script type="module" crossorigin src="./assets/index-CLr50h6G.js"></script>
+	</body>
+</html>

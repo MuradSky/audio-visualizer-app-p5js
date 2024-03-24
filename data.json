@@ -1,0 +1,34 @@
+[
+    {
+        "id": 4,
+        "name": "Awlent Ama - Express (2024 Version).mp3",
+        "file": "./data/Express (2024 Version).mp3",
+        "cover": "./data/cover_4.jpg",
+        "producer": "Awlent Ama",
+        "released ": "December 25, 2022"
+    },
+    {
+        "id": 1,
+        "name": "Diffused Signal - Anti",
+        "file": "./data/Diffused Signal - Anti.mp3",
+        "cover": "./data/cover_1.jpg",
+        "producer": "Diffused Signal",
+        "released ": "March 31, 2022"
+    },
+    {
+        "id": 3,
+        "name": "Awlent Ama - All I Wanna Do.mp3",
+        "file": "./data/All I Wanna Do.mp3",
+        "cover": "./data/cover_3.jpg",
+        "producer": "Awlent Ama",
+        "released ": "October 27, 2023"
+    },
+    {
+        "id": 2,
+        "name": "Diffused Signal - Vus (Original Mix).mp3",
+        "file": "./data/Vus (Original Mix).mp3",
+        "cover": "./data/cover_2.jpg",
+        "producer": "Diffused Signal",
+        "released ": "June 16, 2022"
+    }
+]
